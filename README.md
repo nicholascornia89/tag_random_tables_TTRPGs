@@ -9,12 +9,13 @@ After Knights of Last Call's live-stream on [Dynamic Random Encounters](https://
 
 The probability of an encounter is proportional to the amount of tags the encounter has in common with the given location.
 
-(Formula in LaTeX)
-$$
+
+```math
 
 P(e|l) = \dfrac{O_{e_i} \times \sum_{ T_{l} \cap {T}_{e_i}} 1 }{\sum_{i} O_{e_i} \times \sum_{ T_{l} \cap {T}_{e_i}} 1}
+```
 
-$$
+
 where O is the _occurrence factor_ of the encounter (from common to rare) and T is the set of tags related to an encounter or location. The denominator is set in such a way that the sum of all encounters makes 1.
 
 **A tag can be anything**, from environmental features to fronts relevant to the campaign world.
