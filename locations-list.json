@@ -1,0 +1,47 @@
+{
+  "locations": [
+    {
+      "id": 0,
+      "name": "Derik's_Island",
+      "tags": [
+        "Snow",
+        "Mountain",
+        "Beach",
+        "Cliff"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Bob's_Island",
+      "tags": [
+        "Rain",
+        "Jungle",
+        "Bob_Redbeard's_pirates",
+        "Beach"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Smith's_Island",
+      "tags": [
+        "Fog",
+        "Cave",
+        "Brok_the_water_goblin_shaman",
+        "Cliff"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "The_Inner_Sea",
+      "tags": [
+        "Open_sea",
+        "Bob_Redbeard's_pirates"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Dragontide_Town",
+      "tags": ["Street","The_City_Council"]
+    }
+  ]
+}

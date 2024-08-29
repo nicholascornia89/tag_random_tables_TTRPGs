@@ -1,0 +1,102 @@
+{
+  "tags": [
+    {
+      "id": 0,
+      "name": "Bob_Redbeard's_pirates",
+      "type": "Front"
+    },
+    {
+      "id": 1,
+      "name": "Snow",
+      "type": "Environmental"
+    },
+    {
+      "id": 2,
+      "name": "Mountain",
+      "type": "Environmental"
+    },
+    {
+      "id": 3,
+      "name": "Rain",
+      "type": "Environmental"
+    },
+    {
+      "id": 4,
+      "name": "Jungle",
+      "type": "Terrain"
+    },
+    {
+      "id": 5,
+      "name": "Forest",
+      "type": "Terrain"
+    },
+    {
+      "id": 6,
+      "name": "Dawn",
+      "type": "Day-time"
+    },
+    {
+      "id": 7,
+      "name": "Night",
+      "type": "Day-time"
+    },
+    {
+      "id": 8,
+      "name": "Day",
+      "type": "Day-time"
+    },
+    {
+      "id": 9,
+      "name": "Open_sea",
+      "type": "Terrain"
+    },
+    {
+      "id": 10,
+      "name": "Beach",
+      "type": "Terrain"
+    },
+    {
+      "id": 11,
+      "name": "Cliff",
+      "type": "Terrain"
+    },
+    {
+      "id": 12,
+      "name": "Cave",
+      "type": "Terrain"
+    },
+    {
+      "id": 13,
+      "name": "Fog",
+      "type": "Environmental"
+    },
+    {
+      "id": 14,
+      "name": "Brok_the_water_goblin_shaman",
+      "type": "Front"
+    },
+    {
+      "id": 15,
+      "name": "Hill",
+      "type": "Terrain"
+    },
+
+    {
+      "id": 16,
+      "name": "Street",
+      "type": "Terrain"
+    },
+
+    {
+      "id": 16,
+      "name": "The_City_Council",
+      "type": "Front"
+    },
+
+    {
+      "id": 17,
+      "name": "Ruin",
+      "type": "Terrain"
+    }
+  ]
+}
