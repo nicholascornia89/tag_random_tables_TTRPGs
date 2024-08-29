@@ -5,7 +5,7 @@ An algorithm to generate dynamical random tables for encounters in a TTRP game, 
 
 After Knights of Last Call's live-stream on [Dynamic Random Encounters](https://www.youtube.com/watch?v=8cHfi9csAVc) I decided to develop an algorithm to generate random tables from more flexible structures than linear models. Graphs, with nodes and edges, are the more general structure to derive dynamic random tables for encounters. Each location _L_ is associated with a graph _Gl_, with a main node representing the location itself connected to all its related encounters, weighted by tags. 
 
-![[example_location_graph.png]]
+![example_location_graph](example_location_graph.png)
 
 The probability of an encounter is proportional to the amount of tags the encounter has in common with the given location.
 
