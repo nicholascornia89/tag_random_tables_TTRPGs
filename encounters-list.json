@@ -3,7 +3,7 @@
     {
       "id": 0,
       "name": "Pirate_ship",
-      "occurence_factor": 1,
+      "occurrence_factor": 1.0,
       "tags": [
         "Fog",
         "Bob_Redbeard's_pirates",
@@ -14,7 +14,7 @@
     {
       "id": 1,
       "name": "Pirate_squad",
-      "occurence_factor": 1,
+      "occurrence_factor": 1.0,
       "tags": [
         "Bob_Redbeard's_pirates",
         "Night",
@@ -24,9 +24,9 @@
     {
       "id": 2,
       "name": "Bob_Redbeard's_vessel",
-      "occurence_factor": 0.5,
+      "occurrence_factor": 0.5,
       "tags": [
-        "Bob Redbeard's_pirates",
+        "Bob_Redbeard's_pirates",
         "Night",
         "Open_sea"
       ]
@@ -34,7 +34,7 @@
     {
       "id": 3,
       "name": "Water_goblin_scouts",
-      "occurence_factor": 2.0,
+      "occurrence_factor": 2.0,
       "tags": [
         "Rain",
         "Brok_the_water_goblin_shaman",
@@ -42,11 +42,10 @@
         "Beach"
       ]
     },
-
     {
       "id": 4,
       "name": "Water_goblin_shaman",
-      "occurence_factor": 0.5,
+      "occurrence_factor": 0.5,
       "tags": [
         "Rain",
         "Brok_the_water_goblin_shaman",
@@ -54,89 +53,84 @@
         "Cave"
       ]
     },
-
     {
       "id": 5,
       "name": "Triton_riders",
-      "occurence_factor": 2.0,
+      "occurrence_factor": 2.0,
       "tags": [
-        "Day",
-        "Open_sea"
+        "Open_sea",
+        "Day"
       ]
     },
-
     {
       "id": 6,
       "name": "Thieves",
-      "occurence_factor": 1.0,
+      "occurrence_factor": 1.0,
       "tags": [
         "Night",
         "Street"
       ]
     },
-
     {
       "id": 7,
       "name": "Merchant",
-      "occurence_factor": 0.5,
+      "occurrence_factor": 0.5,
       "tags": [
         "Day",
         "Street"
       ]
     },
-
     {
       "id": 8,
       "name": "Envoy",
-      "occurence_factor": 0.5,
+      "occurrence_factor": 0.5,
       "tags": [
         "Day",
         "The_City_Council"
       ]
     },
-
     {
       "id": 9,
       "name": "Giant_crabs",
-      "occurence_factor": 2.0,
+      "occurrence_factor": 2.0,
       "tags": [
         "Day",
         "Beach"
       ]
     },
-
     {
       "id": 10,
       "name": "Moss_troll",
-      "occurence_factor": 0.5,
+      "occurrence_factor": 0.5,
       "tags": [
         "Fog",
+        "Cave",
+        "Mountain",
         "Night",
-        "Cave"
+        "Dawn"
       ]
     },
-
     {
       "id": 11,
       "name": "Dire_tiger",
-      "occurence_factor": 1.0,
+      "occurrence_factor": 1.0,
       "tags": [
         "Jungle",
         "Day",
         "Night"
       ]
     },
-
     {
       "id": 12,
       "name": "Ghosts",
-      "occurence_factor": 0.5,
+      "occurrence_factor": 0.5,
       "tags": [
         "Fog",
         "Cliff",
         "Forest",
         "Mountain",
-        "Ruin"
+        "Ruin",
+        "Night"
       ]
     }
   ]

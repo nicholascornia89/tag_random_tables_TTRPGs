@@ -13,7 +13,7 @@
     {
       "id": 2,
       "name": "Mountain",
-      "type": "Environmental"
+      "type": "Terrain"
     },
     {
       "id": 3,
@@ -80,21 +80,18 @@
       "name": "Hill",
       "type": "Terrain"
     },
-
     {
       "id": 16,
       "name": "Street",
       "type": "Terrain"
     },
-
-    {
-      "id": 16,
-      "name": "The_City_Council",
-      "type": "Front"
-    },
-
     {
       "id": 17,
+      "name": "City_Council",
+      "type": "Front"
+    },
+    {
+      "id": 18,
       "name": "Ruin",
       "type": "Terrain"
     }

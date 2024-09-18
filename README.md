@@ -20,11 +20,31 @@ where O is the _occurrence factor_ of the encounter (from common to rare) and T 
 
 **A tag can be anything**, from environmental features to fronts relevant to the campaign world.
 
+# Ingest data using Google Sheets
+
+Because many users might not be experienced using JSON files, I created a [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1zxEBxsflxflDBs4TsFfkgrI5gZ8FIyQp-RZR5M5M1fc/edit?gid=599884660#gid=599884660) that will assist the user in generating correct CSV files to be ingested in the program.
+
+Follow these steps for a correct set of CSV files: 
+
+1. Copy the [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1zxEBxsflxflDBs4TsFfkgrI5gZ8FIyQp-RZR5M5M1fc/edit?gid=599884660#gid=599884660) template on your Google Drive, or in your local machine.
+
+2. Populate tags, encounters and locations desired. If encounters and locations requires more tags, add a new one in a row below, as illustrated in the example.
+
+3. Once you are done with the data, download each separate list through the File->Download .csv option.
+
+4. Move the files in the same directory of the ``tag-random-tables-generator.py`` file and rename them as
+``tag_list.csv``, ``encounters_list.csv`` and ``locations_list.csv``
+
+5. Make a backup of your current .json files before running the code, in case something might get wrong.
+
 # Running the code
 
-There are several Python scripts with the prefix "add" that allow the user to populate locations, encounters and tags that will be added to the lists, recorded in JSON format.
+## Prerequisites
 
-More experienced users can easily add new items to the JSON file directly with a text editor.
+- Python 3
+- **csv** and **json** modules
+
+There are several Python scripts with the prefix "add" that allow the user to populate locations, encounters and tags that will be added to the lists, recorded in JSON format.
 
 The main script ``tag-random-tables-generator.py`` will generate random tables in CSV format for each location, given a day-time tag as input (such as "Night", or "Day")
 

@@ -1,74 +1,49 @@
 import json
+import csv 
+
 
 #load old json
 
 locations_filename = "locations-list.json"
-locations_file = open(locations_filename,'r',encoding = 'utf-8')
-old_locations = json.load(locations_file)
 
-tags_filename = "tags-list.json"
-tags_file = open(tags_filename,'r',encoding = 'utf-8')
-old_tags = json.load(tags_file)
+# load locations from csv file
+# I am assuming the following structure id, name, tag
 
+input_csv_locations_file = open('locations_list.csv', mode='r')
+csv_locations_reader = csv.DictReader(input_csv_locations_file)
+csv_locations = list(csv_locations_reader)
 
-def value_lookup(dictionary,field,value):
-	for i in range(len(dictionary)):
-		if dictionary[i][field] == value:
-			return True
-	
-	return False
+# Import new locations into JSON tag_list
 
 
-#append new element to json file
+locations_dict = {
+	"locations": [
 
-print("This script will insert a new Location to the JSON list:")
-
-new_data = {
-	"id" : len(old_locations["locations"]),
-	"name": "",
-	"tags": []
-
-}
-
-
-print("Location name:")
-exit = False
-while exit == False:
-	new_name = input()
-	if value_lookup(old_locations["locations"],"name",new_name) == True:
-		print("A location with the same name is already present, choose another name or exit")
-	else: 
-		exit = True
-
-new_data["name"] = new_name
-print("Location name added correcly")
-
-# tags
-
-exit = False
-while exit == False:
-	new_tag = str(input("Tag associated to location:"))
-	if value_lookup(old_tags["tags"],"name",new_tag) == False:
-		print("No tag with this name is present in the JSON tag")
+	]
+	}
+id_counter = -1	 
+for row in csv_locations:
+	if int(row['id']) == id_counter:
+		# same encounter, multiple tag
+		# append tag to last encounter in the dictionary
+		locations_dict['locations'][-1]['tags'].append(row['tag'])
 	else:
-		new_data["tags"].append(new_tag)
+		# new encounter
+		locations_dict['locations'].append(
+				{
+			"id" : int(row['id']),
+			"name": row['name'],
+			"tags": [row['tag']]
 
-	print("Would you like to add another tag? y/n")
-	answer = input()
-	if answer == "y":
-		exit = False
-	else:
-		exit = True
+		}
 
-# append new encounter to the json list
+		)
+		id_counter += 1 
 
-data = old_locations
-data["locations"].append(new_data)
 
-locations_file.close()
-tags_file.close()
 output_file = open(locations_filename,'w')
-json.dump(data,output_file,indent=2)
+json.dump(locations_dict,output_file,indent=2)
+
 
 
 

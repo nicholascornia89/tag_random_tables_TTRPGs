@@ -23,9 +23,9 @@ def total_probability_location(lT,E,day_time):
 			if E["encounters"][i]["tags"][j] in lT:
 				#multiplicative bonus day_time
 				if day_time in E["encounters"][i]["tags"]:
-					S += 2*E["encounters"][i]["occurence_factor"]
+					S += 2*E["encounters"][i]["occurrence_factor"]
 				else:
-					S += E["encounters"][i]["occurence_factor"]
+					S += E["encounters"][i]["occurrence_factor"]
 
 	return S
 
@@ -42,7 +42,7 @@ def encounter_probability(lT,lS,e,day_time):
 				s += 2
 			else:
 				s += 1
-	return s*e["occurence_factor"]/lS
+	return s*e["occurrence_factor"]/lS
 
 
 
@@ -85,6 +85,16 @@ for i in range(len(locations["locations"])):
 			p=int(p)
 		csv_dictionary["random_tables"].append({"name": lE[i][0], "results": str(last_integer)+"-"+str(last_integer+p-1) })
 		last_integer = last_integer+p
+
+	#adjust last value to 100
+	if csv_dictionary["random_tables"][-1]['results'][-3:] == "100":
+		break
+	else:
+		# no 100 as value
+		if csv_dictionary["random_tables"][-1]['results'][-3:] == "101":
+			csv_dictionary["random_tables"][-1]['results'] = csv_dictionary["random_tables"][-1]['results'].replace("101","100")
+		else:
+			csv_dictionary["random_tables"][-1]['results'] = csv_dictionary["random_tables"][-1]['results'].replace("99","100")
 
 	# export csv_dictionary to csv table
 	w = csv.writer(csv_file)
