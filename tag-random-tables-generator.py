@@ -57,7 +57,7 @@ tags = json2dict(tags_filename)
 print("Insert Day-time tag for tables:")
 day_time = input()
 
-csv_baseline_filename = "random_table-"
+csv_baseline_filename = "./output_tables/random_table-"
 lS = []
 for i in range(len(locations["locations"])):
 	#generate a list of total probabilities for each locations
