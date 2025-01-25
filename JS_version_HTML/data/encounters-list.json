@@ -1,0 +1,137 @@
+{
+  "encounters": [
+    {
+      "id": 0,
+      "name": "Pirate_ship",
+      "occurrence_factor": 1.0,
+      "tags": [
+        "Fog",
+        "Bob_Redbeard's_pirates",
+        "Night",
+        "Open_sea"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Pirate_squad",
+      "occurrence_factor": 1.0,
+      "tags": [
+        "Bob_Redbeard's_pirates",
+        "Night",
+        "Beach"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bob_Redbeard's_vessel",
+      "occurrence_factor": 0.5,
+      "tags": [
+        "Bob_Redbeard's_pirates",
+        "Night",
+        "Open_sea"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Water_goblin_scouts",
+      "occurrence_factor": 2.0,
+      "tags": [
+        "Rain",
+        "Brok_the_water_goblin_shaman",
+        "Night",
+        "Beach"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Water_goblin_shaman",
+      "occurrence_factor": 0.5,
+      "tags": [
+        "Rain",
+        "Brok_the_water_goblin_shaman",
+        "Night",
+        "Cave"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Triton_riders",
+      "occurrence_factor": 2.0,
+      "tags": [
+        "Open_sea",
+        "Day"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Thieves",
+      "occurrence_factor": 1.0,
+      "tags": [
+        "Night",
+        "Street"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Merchant",
+      "occurrence_factor": 0.5,
+      "tags": [
+        "Day",
+        "Street"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Envoy",
+      "occurrence_factor": 0.5,
+      "tags": [
+        "Day",
+        "The_City_Council"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Giant_crabs",
+      "occurrence_factor": 2.0,
+      "tags": [
+        "Day",
+        "Beach"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Moss_troll",
+      "occurrence_factor": 0.5,
+      "tags": [
+        "Fog",
+        "Cave",
+        "Mountain",
+        "Night",
+        "Dawn"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Dire_tiger",
+      "occurrence_factor": 1.0,
+      "tags": [
+        "Jungle",
+        "Day",
+        "Night"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Ghosts",
+      "occurrence_factor": 0.5,
+      "tags": [
+        "Fog",
+        "Cliff",
+        "Forest",
+        "Mountain",
+        "Ruin",
+        "Night"
+      ]
+    }
+  ]
+}

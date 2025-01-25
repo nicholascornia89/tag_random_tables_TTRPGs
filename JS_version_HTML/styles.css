@@ -1,0 +1,95 @@
+body{
+	font-family: 'Poppins';
+	background-color: #081135;
+	color: #fffef6;
+}
+
+a {
+	color: #d49d33;
+}
+
+/* Navigation bar */
+
+div.nav-menu {
+  background-color: #d63a19;
+  overflow: auto;
+  white-space: nowrap;
+  color: #081135;
+  width: 400px;
+}
+
+div.nav-menu a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.nav-menu a:hover {
+  background-color: #d63a19;
+  opacity: 50%;
+}
+
+
+
+/*Display tables */
+
+th {
+	height: 50px;
+	text-align: center;
+	background-color: #017cb1 ;
+	border: 2px solid;
+	border-color: #d49d33;
+	border-block-color: #d49d33 ;
+}
+
+/* Hover row*/
+tr:hover {background-color: #d49d33 ;}
+
+/*Striped rows
+tr:nth-child(even) {
+	background-color: #017cb1;
+	opacity: 50%;}
+*/
+td{
+	text-align: center;
+	padding: 15px;
+	border: 1px solid;
+	border-color: #d49d33;
+	border-block-color: #d49d33 ;
+}
+
+table{
+	border: 4px solid;
+	border-color: #d49d33;
+	width: 100%;
+
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #d49d33;
+  font-family: 'Poppins';
+  cursor: pointer;
+  color: #fffef6;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #d49d33;
+  opacity: 70%;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #017cb1;
+}

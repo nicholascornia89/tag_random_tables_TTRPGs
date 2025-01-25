@@ -1,0 +1,53 @@
+[
+    {
+      "id": 0,
+      "name": "Derik's Island",
+      "description": "Island of Derik",
+      "tags": [
+        "Snow",
+        "Mountain",
+        "Beach",
+        "Cliff"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Bob's Island",
+      "description": "Island of Bob",
+      "tags": [
+        "Rain",
+        "Jungle",
+        "Bob Redbeard's Pirates",
+        "Beach"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Smith's Island",
+      "description": "Island of Smith",
+      "tags": [
+        "Fog",
+        "Cave",
+        "Brok, the Water Goblin Shaman",
+        "Cliff"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "The Inner Sea",
+      "description": "Waters between the archipelago",
+      "tags": [
+        "Open Sea",
+        "Bob Redbeard's Pirates"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Dragontide Town",
+      "description": "PC's town",
+      "tags": [
+        "Street",
+        "City Council"
+      ]
+    }
+  ]
