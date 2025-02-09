@@ -1,5 +1,4 @@
-{
-  "encounters": [
+[
     {
       "id": 0,
       "name": "Pirate_ship",
@@ -133,5 +132,4 @@
         "Night"
       ]
     }
-  ]
-}
+]

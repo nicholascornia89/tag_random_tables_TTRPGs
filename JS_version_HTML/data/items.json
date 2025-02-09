@@ -1,0 +1,327 @@
+{
+"tags": [
+    {
+      "description": "",
+      "image": "",
+      "name": "Bob Redbeard's pirates",
+      "type": "Front"
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Snow",
+      "type": "Environmental"
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Mountain",
+      "type": "Terrain"
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Rain",
+      "type": "Environmental"
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Jungle",
+      "type": "Terrain"
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Forest",
+      "type": "Terrain"
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Dawn",
+      "type": "Day-time"
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Night",
+      "type": "Day-time"
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Day",
+      "type": "Day-time"
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Open sea",
+      "type": "Terrain"
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Beach",
+      "type": "Terrain"
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Cliff",
+      "type": "Terrain"
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Cave",
+      "type": "Terrain"
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Fog",
+      "type": "Environmental"
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Brok, the water goblin shaman",
+      "type": "Front"
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Hill",
+      "type": "Terrain"
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Street",
+      "type": "Terrain"
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "City Council",
+      "type": "Front"
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Ruin",
+      "type": "Terrain"
+    }
+],
+
+"encounters": [
+    {
+      "description": "",
+      "image": "",
+      "name": "Pirate ship",
+      "occurrence factor": 1.0,
+      "tags": [
+        "Fog",
+        "Bob Redbeard's pirates",
+        "Night",
+        "Open sea"
+      ]
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Pirate squad",
+      "occurrence factor": 1.0,
+      "tags": [
+        "Bob Redbeard's pirates",
+        "Night",
+        "Beach"
+      ]
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Bob Redbeard's vessel",
+      "occurrence factor": 0.5,
+      "tags": [
+        "Bob Redbeard's pirates",
+        "Night",
+        "Open sea"
+      ]
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Water goblin scouts",
+      "occurrence factor": 2.0,
+      "tags": [
+        "Rain",
+        "Brok, the water goblin shaman",
+        "Night",
+        "Beach"
+      ]
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Water goblin shaman",
+      "occurrence factor": 0.5,
+      "tags": [
+        "Rain",
+        "Brok, the water goblin shaman",
+        "Night",
+        "Cave"
+      ]
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Triton riders",
+      "occurrence factor": 2.0,
+      "tags": [
+        "Open sea",
+        "Day"
+      ]
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Thieves",
+      "occurrence factor": 1.0,
+      "tags": [
+        "Night",
+        "Street"
+      ]
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Merchant",
+      "occurrence factor": 0.5,
+      "tags": [
+        "Day",
+        "Street"
+      ]
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Envoy",
+      "occurrence factor": 0.5,
+      "tags": [
+        "Day",
+        "The City Council"
+      ]
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Giant crabs",
+      "occurrence factor": 2.0,
+      "tags": [
+        "Day",
+        "Beach"
+      ]
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Moss troll",
+      "occurrence factor": 0.5,
+      "tags": [
+        "Fog",
+        "Cave",
+        "Mountain",
+        "Night",
+        "Dawn"
+      ]
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Dire tiger",
+      "occurrence factor": 1.0,
+      "tags": [
+        "Jungle",
+        "Day",
+        "Night"
+      ]
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Ghosts",
+      "occurrence factor": 0.5,
+      "tags": [
+        "Fog",
+        "Cliff",
+        "Forest",
+        "Mountain",
+        "Ruin",
+        "Night"
+      ]
+    }
+],
+
+"locations": [
+    {
+      "description": "",
+      "image": "",
+      "name": "Derik's Island",
+      "description": "Island of Derik",
+      "tags": [
+        "Snow",
+        "Mountain",
+        "Beach",
+        "Cliff"
+      ]
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Bob's Island",
+      "description": "Island of Bob",
+      "tags": [
+        "Rain",
+        "Jungle",
+        "Bob Redbeard's Pirates",
+        "Beach"
+      ]
+    },
+    {
+      "description": "",
+      "image": "",
+      "name": "Smith's Island",
+      "description": "Island of Smith",
+      "tags": [
+        "Fog",
+        "Cave",
+        "Brok, the Water Goblin Shaman",
+        "Cliff"
+      ]
+    },
+    {
+      "description": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Fantasy_-_panoramio.jpg",
+      "name": "The Inner Sea",
+      "description": "Waters between the archipelago",
+      "tags": [
+        "Open Sea",
+        "Bob Redbeard's Pirates"
+      ]
+    },
+    {
+      "description": "",
+      "image": "https://images-3.gog-statics.com/7dff43336ad510504dffd89de06b7be131423fd4b2950178baf9fd2fdd2f5ffd.jpg",
+      "name": "Dragontide Town",
+      "description": "PC's town",
+      "tags": [
+        "Street",
+        "City Council"
+      ]
+    }
+  ]
+
+}
